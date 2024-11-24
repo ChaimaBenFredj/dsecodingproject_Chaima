@@ -3,6 +3,9 @@
 _**Overview:**_
 The IMDb Movie Quiz tests the user’s knowledge of movies through a series of questions. The quiz has three difficulty levels, with progressively harder questions and varying point values.
 
+____________________________________________________________________________
+
+
 _**Quiz Flow:**_
 .	Difficulty Selection:
 * The user selects a difficulty level (Easy, Medium, or Hard).
@@ -43,6 +46,8 @@ _**Quiz Flow:**_
 
 -Final score displayed based on correct answers.
 
+____________________________________________________________________________
+
 _**Data Sources and Dataset Preparation:**_
 The quiz is based on data extracted from various IMDb datasets.
 
@@ -64,6 +69,9 @@ Here's how the data was processed and prepared:
 	These filtered datasets (movies, crew, and persons) were then exported as TSV files and used in the quiz to generate questions.
 
 By using only a subset of the movies and crew members from the top-rated movies, the quiz focuses on well-known films and prominent crew members, ensuring an engaging and challenging experience for users.
+
+____________________________________________________________________________
+
 
 _**How it Works:**_
 
